@@ -1,60 +1,58 @@
+<h1  align="center" style="text-align:center; margin:0; padding:0">Backend simple template</h1>
+<p  align="center" style="text-align:center; margin:0px; padding:0px">
+<a style="text-align:center; margin:0px; padding:0px" href="https://github.com/aliaa115/backend_api">
+<img alt="GitHub Logotype" src="https://img.shields.io/badge/proyecto-grey?logo=github">
+</a>
 <br/>
-<p align="center">
-  <h3 align="center">Backend simple templat</h3>
-
-  <p align="center">
-    <a href="https://github.com/aliaa115/backend_api"><strong>Explore the docs »</strong></a>
-    <br/>
-    <br/>
-    <a href="https://github.com/aliaa115/backend_api">View Demo</a>
-    .
-    <a href="https://github.com/aliaa115/backend_api/issues">Report Bug</a>
-    .
-    <a href="https://github.com/aliaa115/backend_api/issues">Request Feature</a>
-  </p>
+<a  href="https://github.com/aliaa115/backend_api">View Demo</a> .
+<a  href="https://github.com/aliaa115/backend_api/issues">Report Bug</a> .
+<a  href="https://github.com/aliaa115/backend_api/issues">Request Feature</a>
 </p>
 
-![Downloads](https://img.shields.io/github/downloads/aliaa115/backend_api/total) ![Contributors](https://img.shields.io/github/contributors/aliaa115/backend_api?color=dark-green) ![Issues](https://img.shields.io/github/issues/aliaa115/backend_api) ![License](https://img.shields.io/github/license/aliaa115/backend_api)
+Proyecto usando nodej, express, typescript y knex para generar una plantilla backend con conexión a mysql, postgresql y oracledb
 
-## Table Of Contents
+<p  align="center" style="text-align:center; margin:0px; padding:0px">
+<img alt="GitHub Logotype" src="https://img.shields.io/github/contributors/aliaa115/backend_api?color=dark-green">
+<img alt="GitHub Logotype" src="https://img.shields.io/github/issues/aliaa115/backend_api">
+<img alt="GitHub Logotype" src="https://img.shields.io/github/downloads/aliaa115/backend_api/total">
+<img alt="GitHub Logotype" src="https://img.shields.io/github/license/aliaa115/backend_api">
+</p>
+  
+#### Tech Stack
+<p  align="center" style="text-align:center; margin:0px; padding:0px">
+<img alt="GitHub Logotype" src="https://img.shields.io/badge/node--js-node?logo=node.js&color=grey">
+</p>
 
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-- [Usage](#usage)
-- [Roadmap](#roadmap)
-- [Contributing](#contributing)
-- [License](#license)
-- [Authors](#authors)
-- [Acknowledgements](#acknowledgements)
+## Environment Variables
 
-## Getting Started
+To run this project, you will need to add the following environment variables to your .env file
 
-To get a local copy up and running follow these simple example steps.
+`API_KEY`
+`ANOTHER_API_KEY`
+`USE_API`
+`USE_SOCKET`
+`USE_API_ENCRYPT`
+`PRINT_LOG`
+`SAVE_LOG`
 
-### Prerequisites
+## Installation
 
-This is an example of how to list things you need to use the software and how to install them.
+### Install `backend_api` with `npm`
 
-- npm
-- yarn
+1. Clone the repo
 
-### Installation
-
-1.  Clone the repo
-
-```sh
-git clone https://github.com/your_username_/Project-Name.git
+```bash
+git  clone  https://github.com/aliaa115/backend_api.git
 ```
 
 3. Install NPM packages
 
 ```sh
-npm install
+npm  install
 ```
 
-4. Enter your API in `config.js`
+### Install `backend_api` with `npm`
 
-```JS
-const API_KEY = 'ENTER YOUR API';
-```
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
