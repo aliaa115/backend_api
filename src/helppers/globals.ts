@@ -1,0 +1,81 @@
+import { Knex } from "knex";
+import { MyError } from "../interfaces/general/errorInterfaces";
+
+export {};
+
+declare global {
+  var _PRINT_LOG: boolean;
+  var _SAVE_LOGS: boolean;
+  var colors: {
+    RESET: string;
+    BLACK: string;
+    RED: string;
+    GREEN: string;
+    YELLOW: string;
+    BLUE: string;
+    MAGENTA: string;
+    CYAN: string;
+    WHITE: string;
+    BLACK_BOLD: string;
+    RED_BOLD: string;
+    GREEN_BOLD: string;
+    YELLOW_BOLD: string;
+    BLUE_BOLD: string;
+    MAGENTA_BOLD: string;
+    CYAN_BOLD: string;
+    WHITE_BOLD: string;
+    BLACK_UNDERLINED: string;
+    RED_UNDERLINED: string;
+    GREEN_UNDERLINED: string;
+    YELLOW_UNDERLINED: string;
+    BLUE_UNDERLINED: string;
+    MAGENTA_UNDERLINED: string;
+    CYAN_UNDERLINED: string;
+    WHITE_UNDERLINED: string;
+    BLACK_BACKGROUND: string;
+    RED_BACKGROUND: string;
+    GREEN_BACKGROUND: string;
+    YELLOW_BACKGROUND: string;
+    BLUE_BACKGROUND: string;
+    MAGENTA_BACKGROUND: string;
+    CYAN_BACKGROUND: string;
+    WHITE_BACKGROUND: string;
+    BLACK_BRIGHT: string;
+    RED_BRIGHT: string;
+    GREEN_BRIGHT: string;
+    YELLOW_BRIGHT: string;
+    BLUE_BRIGHT: string;
+    MAGENTA_BRIGHT: string;
+    CYAN_BRIGHT: string;
+    WHITE_BRIGHT: string;
+    BLACK_BOLD_BRIGHT: string;
+    RED_BOLD_BRIGHT: string;
+    GREEN_BOLD_BRIGHT: string;
+    YELLOW_BOLD_BRIGHT: string;
+    BLUE_BOLD_BRIGHT: string;
+    MAGENTA_BOLD_BRIGHT: string;
+    CYAN_BOLD_BRIGHT: string;
+    WHITE_BOLD_BRIGHT: string;
+    BLACK_BACKGROUND_BRIGHT: string;
+    RED_BACKGROUND_BRIGHT: string;
+    GREEN_BACKGROUND_BRIGHT: string;
+    YELLOW_BACKGROUND_BRIGHT: string;
+    BLUE_BACKGROUND_BRIGHT: string;
+    MAGENTA_BACKGROUND_BRIGHT: string;
+    CYAN_BACKGROUND_BRIGHT: string;
+    WHITE_BACKGROUND_BRIGHT: string;
+  };
+  function console_log(...msg: any[]): void;
+  function console_catch(...msg: any[]): void;
+  function console_error(...msg: any[]): void;
+  function console_warn(...msg: any[]): void;
+  function console_info(...msg: any[]): void;
+  function console_time(...msg: any): void;
+
+  function get_error_conent(...msg: any): MyError | string;
+  function set_error_conent(...msg: any): MyError | string;
+
+  var mySqlClient: null | Knex<any, unknown[]>;
+  var pgClient: null | Knex<any, unknown[]>;
+  var oracleClient: null | Knex<any, unknown[]>;
+}
