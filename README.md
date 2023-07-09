@@ -12,10 +12,10 @@
 Proyecto usando nodej, express, typescript y knex para generar una plantilla backend con conexión a mysql, postgresql y oracledb
 
 <p  align="center" style="text-align:center; margin:0px; padding:0px">
-<img alt="GitHub Logotype" src="https://img.shields.io/github/contributors/aliaa115/backend_api?color=dark-green">
-<img alt="GitHub Logotype" src="https://img.shields.io/github/issues/aliaa115/backend_api">
-<img alt="GitHub Logotype" src="https://img.shields.io/github/downloads/aliaa115/backend_api/total">
-<img alt="GitHub Logotype" src="https://img.shields.io/github/license/aliaa115/backend_api">
+<img src="https://img.shields.io/github/contributors/aliaa115/backend_api?color=dark-green">
+<img src="https://img.shields.io/github/issues/aliaa115/backend_api">
+<img src="https://img.shields.io/github/downloads/aliaa115/backend_api/total">
+<img src="https://img.shields.io/github/license/aliaa115/backend_api">
 </p>
   
 #### Tech Stack
