@@ -27,7 +27,7 @@ Proyecto usando nodej, express, typescript y knex para generar una plantilla bac
 <img alt="Static Badge" src="https://img.shields.io/badge/ts--node-^10.9.1-blue?logo=ts-node&logoColor=white">
 <img alt="Static Badge" src="https://img.shields.io/badge/cors-^2.8.5-blue?logo=cors&logoColor=white">
 <img alt="Static Badge" src="https://img.shields.io/badge/knex-^2.4.2-blue?logo=knex&logoColor=white">
-<img alt="Static Badge" src="https://img.shields.io/badge/pg-^8.11.1-blue?logo=pg&logoColor=white">
+<img alt="Static Badge" src="https://img.shields.io/badge/pg-^8.11.1-blue?logo=postgresql&logoColor=white">
 <img alt="Static Badge" src="https://img.shields.io/badge/mysql-^2.18.1-blue?logo=mysql&logoColor=white">
 <img alt="Static Badge" src="https://img.shields.io/badge/oracledb-^6.0.2-blue?logo=oracle&logoColor=white">
 </p>
