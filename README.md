@@ -20,7 +20,16 @@ Proyecto usando nodej, express, typescript y knex para generar una plantilla bac
   
 #### Tech Stack
 <p  align="center" style="text-align:center; margin:0px; padding:0px">
-<img alt="GitHub Logotype" src="https://img.shields.io/badge/node--js-node?logo=node.js&color=grey">
+<img src="https://img.shields.io/badge/nodemon-node?logo=nodemon&color=grey&logoColor=white">
+<img src="https://img.shields.io/badge/node--js-node?logo=node.js&color=grey&logoColor=white">
+<img alt="Static Badge" src="https://img.shields.io/badge/express-^4.18.2-blue?logo=express&logoColor=white">
+<img alt="Static Badge" src="https://img.shields.io/badge/typescript-^5.0.2-blue?logo=typescript&logoColor=white">
+<img alt="Static Badge" src="https://img.shields.io/badge/ts--node-^10.9.1-blue?logo=ts-node&logoColor=white">
+<img alt="Static Badge" src="https://img.shields.io/badge/cors-^2.8.5-blue?logo=cors&logoColor=white">
+<img alt="Static Badge" src="https://img.shields.io/badge/knex-^2.4.2-blue?logo=knex&logoColor=white">
+<img alt="Static Badge" src="https://img.shields.io/badge/pg-^8.11.1-blue?logo=pg&logoColor=white">
+<img alt="Static Badge" src="https://img.shields.io/badge/mysql-^2.18.1-blue?logo=mysql&logoColor=white">
+<img alt="Static Badge" src="https://img.shields.io/badge/oracledb-^6.0.2-blue?logo=oracledb&logoColor=white">
 </p>
 
 ## Environment Variables
